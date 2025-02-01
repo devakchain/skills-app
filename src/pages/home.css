@@ -1,0 +1,492 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  gap: 20px;
+  padding: 60px;
+  background-image: url(https://media.istockphoto.com/id/1284271878/photo/javascript-inscription-against-laptop-and-code-background-learn-javascript-programming.jpg?b=1&s=612x612&w=0&k=20&c=kpQCCaxIActGQP9ToVrFN3qP55MMXA4Sdnomymdr_64=);
+  background-size: cover;
+  padding: 100px;
+}
+
+.same {
+  width: 30%;
+  height: 120px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+
+.react {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  gap: 10px;
+  cursor: pointer;
+  transition: 1s all;
+}
+
+.react:hover {
+  transform: scale(1.1);
+}
+
+.react h4 {
+  font-weight: 100;
+  color: black;
+  transition: 2s all;
+}
+
+.react h4:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.react img {
+  width: 40px;
+  transition: 2s all;
+}
+
+.react img:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.node {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  gap: 10px;
+  cursor: pointer;
+  transition: 1s all;
+}
+
+.node:hover {
+  transform: scale(1.1);
+}
+
+.node h4 {
+  font-weight: 100;
+  color: black;
+  transition: 2s all;
+}
+
+.node h4:hover {
+  transform: rotate(-360deg) scale(1.5);
+}
+
+.node img {
+  width: 40px;
+  transition: 2s all;
+}
+
+.node img:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  gap: 10px;
+  cursor: pointer;
+  transition: 1s all;
+}
+
+.html:hover {
+  transform: scale(1.1);
+}
+
+.html h4 {
+  font-weight: 100;
+  color: black;
+  transition: 2s all;
+}
+
+.html h4:hover {
+  transform: rotate(-360deg) scale(1.5);
+}
+
+.html img {
+  width: 40px;
+  transition: 2s all;
+}
+
+.html img:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.css {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  gap: 10px;
+  cursor: pointer;
+  transition: 1s all;
+}
+
+.css:hover {
+  transform: scale(1.1);
+}
+
+.css h4 {
+  font-weight: 100;
+  color: black;
+  transition: 2s all;
+}
+
+.css h4:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.css img {
+  width: 40px;
+  transition: 2s all;
+}
+
+.css img:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.bootstrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  gap: 10px;
+  cursor: pointer;
+  transition: 1s all;
+}
+
+.bootstrap:hover {
+  transform: scale(1.1);
+}
+
+.bootstrap h4 {
+  font-weight: 100;
+  color: black;
+  transition: 2s all;
+}
+
+.bootstrap h4:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.bootstrap img {
+  width: 40px;
+  transition: 2s all;
+}
+
+.bootstrap img:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.javascript {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  gap: 10px;
+  cursor: pointer;
+  transition: 1s all;
+}
+
+.javascript:hover {
+  transform: scale(1.1);
+}
+
+.javascript h4 {
+  font-weight: 100;
+  color: black;
+  transition: 2s all;
+  font-size: 14px;
+}
+
+.javascript h4:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.javascript img {
+  width: 40px;
+  transition: 2s all;
+}
+
+.javascript img:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.redux {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  gap: 10px;
+  cursor: pointer;
+  transition: 1s all;
+}
+
+.redux:hover {
+  transform: scale(1.1);
+}
+
+.redux h4 {
+  font-weight: 100;
+  color: black;
+  transition: 2s all;
+}
+
+.redux h4:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.redux img {
+  width: 40px;
+  transition: 2s all;
+}
+
+.redux img:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.mongodb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  gap: 10px;
+  cursor: pointer;
+  transition: 1s all;
+}
+
+.mongodb:hover {
+  transform: scale(1.1);
+}
+
+.mongodb h4 {
+  font-weight: 100;
+  color: black;
+  transition: 2s all;
+}
+
+.mongodb h4:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.mongodb img {
+  width: 40px;
+  transition: 2s all;
+}
+
+.mongodb img:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.nextjs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  gap: 10px;
+  cursor: pointer;
+  transition: 1s all;
+}
+
+.nextjs:hover {
+  transform: scale(1.1);
+}
+
+.nextjs h4 {
+  font-weight: 100;
+  color: black;
+  transition: 2s all;
+}
+
+.nextjs h4:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.nextjs img {
+  width: 40px;
+  transition: 2s all;
+}
+
+.nextjs img:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.mysql {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  gap: 10px;
+  cursor: pointer;
+  transition: 1s all;
+}
+
+.mysql:hover {
+  transform: scale(1.1);
+}
+
+.mysql h4 {
+  font-weight: 100;
+  color: black;
+  transition: 2s all;
+}
+
+.mysql h4:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.mysql img {
+  width: 40px;
+  transition: 2s all;
+}
+
+.mysql img:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.git {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  gap: 10px;
+  cursor: pointer;
+  transition: 1s all;
+}
+
+.git:hover {
+  transform: scale(1.1);
+}
+
+.git h4 {
+  font-weight: 100;
+  color: black;
+  transition: 2s all;
+}
+
+.git h4:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.git img {
+  width: 40px;
+  transition: 2s all;
+}
+
+.git img:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.reactnative {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  gap: 10px;
+  cursor: pointer;
+  transition: 1s all;
+}
+
+.reactnative:hover {
+  transform: scale(1.1);
+}
+
+.reactnative h4 {
+  font-weight: 100;
+  color: black;
+  font-size: 12px;
+  transition: 2s all;
+}
+
+.reactnative h4:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.reactnative img {
+  width: 40px;
+  transition: 2s all;
+}
+
+.reactnative img:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+@media (max-width: 750px) {
+  .home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 20px;
+    padding: 60px;
+    background-image: url(https://media.istockphoto.com/id/1284271878/photo/javascript-inscription-against-laptop-and-code-background-learn-javascript-programming.jpg?b=1&s=612x612&w=0&k=20&c=kpQCCaxIActGQP9ToVrFN3qP55MMXA4Sdnomymdr_64=);
+    background-size: cover;
+    padding: 100px;
+  }
+
+  .same {
+    width: 40%;
+    height: 120px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  }
+}
+
+@media (max-width: 500px) {
+  .home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 20px;
+    padding: 60px;
+    background-image: url(https://media.istockphoto.com/id/1284271878/photo/javascript-inscription-against-laptop-and-code-background-learn-javascript-programming.jpg?b=1&s=612x612&w=0&k=20&c=kpQCCaxIActGQP9ToVrFN3qP55MMXA4Sdnomymdr_64=);
+    background-size: cover;
+    padding: 100px;
+  }
+
+  .same {
+    width: 100%;
+    height: 100vh;
+    height: 120px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: whitesmoke;
+  }
+}
